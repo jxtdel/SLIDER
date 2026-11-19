@@ -1,0 +1,60 @@
+.carousel-item {
+    position: relative;
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.carousel-caption {
+    position: absolute;
+    left: 50%;
+    width:80%;
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: blue;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(245, 247, 245);
+    border-radius: 50%;
+    padding: 10px;
+}
+.productSwiper {
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.blog-image,
+.logo-image {
+    height: 200px;
+    width: 100%;
+}
+.blog-image img,
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-button-next {
+    right: 0;
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: blue;
+    color: rgb(245, 247, 245);
+    height: 42px;
+    width: 42px;
+}
+.btn {
+    width: 100%;
+}

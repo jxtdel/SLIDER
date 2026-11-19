@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="carousel slide carousel-fade" 
+        id="hero-slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2500">
+            <div class="carousel-indicators">
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="0"
+                class="active"
+                aria-label="Slide 1"
+                aria-current="true"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+                <button type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/zonda-tile.jpg">
+                    <div class="carousel-caption">
+                        <h1>Pagani Zonda</h1>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/tesla.jpg">
+                    <div class="carousel-caption">
+                        <h2>Tesla CyberTruck</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/lykan-hypersport-stunt-car-from-furious-7_100791173.jpg">
+                    <div class="carousel-caption">
+                        <h2>Lykan HyperSport</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/mclaren.jpg">
+                    <div class="carousel-caption">
+                        <h2>McLaren 765LT</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/081021_huracan_HP.webp">
+                    <div class="carousel-caption">
+                        <h2>Lamborghini Huracan STO</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/supra.jpg">
+                    <div class="carousel-caption">
+                        <h2>Toyota GT Supra</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/koenigsegg.jpg">
+                    <div class="carousel-caption">
+                        <h2>Koenigsegg One</h2>
+                        <a class="btn btn-primary">MORE</a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" 
+                id="hero-slide"
+                type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">previous</span>
+                </button>
+                <button class="carousel-control-next" 
+                type="button"
+                data-bs-target="#hero-slide"
+                data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+            </div>
+        </div>
+    </section><br>
+    <section class="blog-section">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold">BLOG</h2>
+            </div>
+            <div class="swiper productSwiper">
+                <div class="swiper-wrapper">
+                    <!-- BLOG1 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/tc6t4dyw7znndoynb6kfnj7wiu-sixteen_nine.avif">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Elon Musk</h3>
+                                <p>Elon Musk is a famous businessman, inventor and entrepreneur. He was born on 28 June 1971 in Pretoria, South Africa. He is the CEO of Tesla, a company known for...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG2 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/christian-von-koenigsegg-interview.webp">
+                            </div>
+                            <div class="card-body">   
+                                <h3 class="card-title">Christian von Koenigsegg</h3>
+                                <p>Christian von Koenigsegg is a Swedish businessman and car designer. He was born on 2 July 1972 in Sweden. He is the founder and CEO of Koenigsegg, a company famous for...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG3 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/ferruccio-feature-e1723049025296.webp">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Ferruccio Lamborghini</h3>
+                                <p>Ferruccio Lamborghini was an Italian businessman and car manufacturer. He was born on 28 April 1916 in Italy. He was the founder of Lamborghini, a company famous for making...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG4 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/Kiichiro-Toyoda-min.webp">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Kiichiro Toyoda</h3>
+                                <p>Kiichiro Toyoda was a Japanese businessman and engineer. He was born on 11 June 1894 in Japan. He was the founder of Toyota Motor Corporation, one of the largest car companies in the...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG5 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/horacio-pagani-motoring-cars-aplus-aplussg-home.webp">
+                            </div>
+                            <div class="card-body">    
+                                <h3 class="card-title">Horacio Pagani</h3>
+                                <p>Horacio Pagani is an Argentine-Italian businessman and car designer. He was born on 10 November 1955 in Argentina. He is the founder of Pagani Automobili, a company...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG6 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/images.jpg">
+                            </div>
+                            <div class="card-body">   
+                                <h3 class="card-title">Bruce McLaren</h3>
+                                <p>Bruce McLaren was a New Zealand racing driver, engineer and car designer. He was born on 30 August 1937 in Auckland, New Zealand. He was the founder of McLaren, a company...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BLOG7 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 blog-card shadow-sm">
+                            <div class="blog-image">
+                                <img class="card-img-top" src="images/502549729_24981203404849310_3487455888319063631_n.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Ralph R. Debbas</h3>
+                                <p>Ralph R. Debbas is a Lebanese businessman, entrepreneur and car designer. He was born in 1987 in Lebanon. He is the founder and CEO of W Motors, a company based in Dubai that...</p>
+                                <button class="btn btn-primary">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section><br><br>
+    <section class="logo-section">
+        <div class="container">
+            <div class="swiper productSwiper">
+                <div class="swiper-wrapper">
+                    <!-- logo1 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/teslalogo.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo2 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/koenigseggsymbol.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo3 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/lambologo.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo4 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/toyota.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo5 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/paganilogo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo6 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/mclarenlogo.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo7 -->
+                    <div class="swiper-slide">
+                        <div class="card h-100 border-0 product-card shadow-sm">
+                            <div class="logo-image">
+                                <img class="card-img-top" src="images/wmotorslogo.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
